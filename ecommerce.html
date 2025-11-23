@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BATTLEGEAR - Gaming Accessories Store</title>
+    
+    <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="ui.css">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="header-top container">
+            <div class="brand">
+                <span class="logo">BATTLEGEAR</span>
+            </div>
+
+            <div class="search-wrap">
+                <input type="search" class="search-input" placeholder="Search for products..." />
+                <button class="search-btn">🔍</button>
+            </div>
+
+            <div class="header-actions">
+                <button class="icon-btn">🛒 <span class="mini-count">0</span></button>
+                <button class="login-btn">Login</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-inner container">
+            <div class="hero-content">
+                <h1>Equip. Dominate. Conquer.</h1>
+                <p>Your ultimate destination for high-performance gaming accessories.</p>
+                <a class="btn-primary" href="#products">Shop Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Flash Sale -->
+    <div class="flashbar">
+        <div class="flash-inner container">
+            <span>🔥 Flash Sale: Extra 20% OFF! Ends in</span>
+            <div class="countdown">
+                <span>02</span>:<span>15</span>:<span>42</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN PRODUCT SECTION -->
+    <main id="products" class="products-section container">
+
+        <div class="layout">
+
+            <!-- Filters Sidebar -->
+            <aside class="filters">
+                <h3>Filters</h3>
+
+                <fieldset>
+                    <legend>Category</legend>
+                    <label><input type="checkbox" checked> All</label><br>
+                    <label><input type="checkbox"> Keyboards</label><br>
+                    <label><input type="checkbox"> Mice</label><br>
+                    <label><input type="checkbox"> Headphones</label><br>
+                    <label><input type="checkbox"> Storage</label><br>
+                    <label><input type="checkbox"> Accessories</label><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Price</legend>
+                    <label><input type="radio" name="price"> Under ₹1000</label><br>
+                    <label><input type="radio" name="price"> ₹1000 - ₹5000</label><br>
+                    <label><input type="radio" name="price"> ₹5000+</label><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Color</legend>
+                    <label><input type="checkbox"> Black</label><br>
+                    <label><input type="checkbox"> White</label><br>
+                    <label><input type="checkbox"> RGB</label><br>
+                </fieldset>
+            </aside>
+
+            <!-- Products Grid -->
+            <section class="product-grid">
+
+                <!-- 1. Keyboard -->
+                <article class="product-card">
+                    <div class="media">
+                        <img src="images/gaming-keyboard-with-cacklight_666369-47.webp" alt="Gaming Keyboard">
+                    </div>
+                    <h4>RGB Mechanical Gaming Keyboard</h4>
+                    <p class="desc">Blue switches • Aluminum frame</p>
+                    <div class="meta">
+                        <span class="price">₹3,499</span>
+                        <button class="add">Add</button>
+                    </div>
+                </article>
+
+                <!-- 2. Mouse -->
+                <article class="product-card">
+                    <div class="media">
+                        <img src="images/a-sleek-black-gaming-mouse-with-customizable-rgb-lights-designed-for-precision-and-performance-photo.webp" alt="Gaming Mouse">
+                    </div>
+                    <h4>Precision RGB Gaming Mouse</h4>
+                    <p class="desc">16000 DPI • Custom RGB</p>
+                    <div class="meta">
+                        <span class="price">₹1,899</span>
+                        <button class="add">Add</button>
+                    </div>
+                </article>
+
+                <!-- 3. Headset -->
+                <article class="product-card">
+                    <div class="media">
+                        <img src="images/gamingheadsets-2048px-2969.webp" alt="Gaming Headset">
+                    </div>
+                    <h4>Surround Gaming Headset</h4>
+                    <p class="desc">7.1 Audio • Noise-cancelling mic</p>
+                    <div class="meta">
+                        <span class="price">₹2,299</span>
+                        <button class="add">Add</button>
+                    </div>
+                </article>
+
+                <!-- 4. Monitor -->
+                <article class="product-card">
+                    <div class="media">
+                        <img src="images/02575a5f9e4a0d838f371000df34f151.webp" alt="Monitor">
+                    </div>
+                    <h4>24″ IPS Gaming Monitor</h4>
+                    <p class="desc">75Hz • Ultra-thin design</p>
+                    <div class="meta">
+                        <span class="price">₹7,999</span>
+                        <button class="add">Add</button>
+                    </div>
+                </article>
+
+                <!-- 5. Cooling Pad -->
+                <article class="product-card">
+                    <div class="media">
+                        <img src="images/305990_mtfowz.webp" alt="Laptop Cooling Pad">
+                    </div>
+                    <h4>Laptop Cooling Pad</h4>
+                    <p class="desc">Quad fans • RGB lighting</p>
+                    <div class="meta">
+                        <span class="price">₹1,299</span>
+                        <button class="add">Add</button>
+                    </div>
+                </article>
+
+                <!-- 6. SSD -->
+                <article class="product-card">
+                    <div class="media">
+                        <img src="images/3_fe00a5f8-77f6-4247-b905-9228df9fe737.webp" alt="SSD">
+                    </div>
+                    <h4>Portable 1TB M.2 nVME SSD</h4>
+                    <p class="desc">USB-C • 1050MB/s</p>
+                    <div class="meta">
+                        <span class="price">₹12,499</span>
+                        <button class="add">Add</button>
+                    </div>
+                </article>
+
+                <!-- 7. USB Hub -->
+                <article class="product-card">
+                    <div class="media">
+                        <img src="images/5138OYhQs1L.webp" alt="USB Hub">
+                    </div>
+                    <h4>USB 3.0 Multi-Hub</h4>
+                    <p class="desc">7 ports • High speed</p>
+                    <div class="meta">
+                        <span class="price">₹699</span>
+                        <button class="add">Add</button>
+                    </div>
+                </article>
+
+                <!-- 8. Webcam -->
+                <article class="product-card">
+                    <div class="media">
+                        <img src="images/webcams-2048px-02114.webp" alt="HD Webcam">
+                    </div>
+                    <h4>Full HD Webcam</h4>
+                    <p class="desc">1080p • Autofocus</p>
+                    <div class="meta">
+                        <span class="price">₹1,299</span>
+                        <button class="add">Add</button>
+                    </div>
+                </article>
+
+                <!-- 9. Gaming Chair -->
+                <article class="product-card">
+                    <div class="media">
+                        <img src="images/gaming-chair-with-neon-lights-ai-photo.webp" alt="Gaming Chair">
+                    </div>
+                    <h4>Ergonomic Gaming Chair</h4>
+                    <p class="desc">Lumbar support • Adjustable</p>
+                    <div class="meta">
+                        <span class="price">₹8,999</span>
+                        <button class="add">Add</button>
+                    </div>
+                </article>
+
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <span>© <span id="year"></span> BATTLEGEAR</span>
+            <nav>
+                <a href="#">Privacy</a> | 
+                <a href="#">Terms</a> | 
+                <a href="#">Support</a>
+            </nav>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>
